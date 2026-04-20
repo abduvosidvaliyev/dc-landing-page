@@ -214,6 +214,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     video.controls = true;
                     video.muted = true;
                     video.loop = true;
+                    video.preload = 'metadata'; // Faqat metama'lumotlarni yuklab olish (xotirani tejaydi)
                     div.appendChild(video);
                 } else {
                     const img = document.createElement('img');
