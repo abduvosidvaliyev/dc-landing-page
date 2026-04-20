@@ -76,6 +76,58 @@ document.addEventListener('DOMContentLoaded', () => {
                 { type: 'image', src: 'assets/projects/e-komplektasiya/1.jpg' },
                 { type: 'image', src: 'assets/projects/e-komplektasiya/2.jpg' }
             ]
+        },
+        'm-gaz': {
+            title: 'M-GAZ [WEB]',
+            tag: 'Boshqaruv Tizimlari',
+            desc: 'Gaz iste\'moli va abonentlar hisobini yuritish uchun mo\'ljallangan onlayn platforma.',
+            features: ['Elektron to\'lovlar integratsiyasi', 'Iste\'mol tahlili', 'Abonentlar shaxsiy kabineti'],
+            media: [
+                { type: 'image', src: 'assets/projects/m-gaz/1.jpg' }
+            ]
+        },
+        's-gaz': {
+            title: 'S-GAZ [WEB]',
+            tag: 'Boshqaruv Tizimlari',
+            desc: 'Gaz transportirovka qilish tizimining texnik holatini nazorat qiluvchi maxsus platforma.',
+            features: ['Quvurlar holati monitoringi', 'Avariya holatlarini tezkor aniqlash', 'Olti oylik tahliliy hisobotlar'],
+            media: [
+                { type: 'video', src: 'assets/projects/s-gaz/video.mp4' },
+                { type: 'image', src: 'assets/projects/s-gaz/1.jpg' },
+                { type: 'image', src: 'assets/projects/s-gaz/2.jpg' },
+                { type: 'image', src: 'assets/projects/s-gaz/3.jpg' }
+            ]
+        },
+        'karantin': {
+            title: 'KARANTIN [WEB]',
+            tag: 'Boshqaruv Tizimlari',
+            desc: 'Davlat sanitariya-epidemiologiya va karantin nazorati xizmati uchun mo\'ljallangan yagona platforma.',
+            features: ['Obyektlar reyestri', 'Nazorat tadbirlarini rejalashtirish', 'Statistik tahlillar'],
+            media: [
+                { type: 'image', src: 'assets/projects/karantin/1.jpg' },
+                { type: 'image', src: 'assets/projects/karantin/2.jpg' },
+                { type: 'image', src: 'assets/projects/karantin/3.jpg' }
+            ]
+        },
+        'mudofaa': {
+            title: 'Mudofaa [WEB]',
+            tag: 'Boshqaruv Tizimlari',
+            desc: 'Mudofaa tizimi uchun maxsus mo\'ljallangan, yopiq tarmoqlarda ishlovchi yuqori darajadagi xavfsiz boshqaruv loyihasi.',
+            features: ['Yopiq aloqa kanallari', 'Resurslarni taqsimlash', 'Strategik hisobotlar'],
+            media: [
+                { type: 'video', src: 'assets/projects/mudofaa/video.mp4' },
+                { type: 'video', src: 'assets/projects/mudofaa/video2.mp4' }
+            ]
+        },
+        'modem': {
+            title: 'MODEM [PLC]',
+            tag: 'Sanoat Avtomatlashtirish',
+            desc: 'Sanoat ob\'ektlari o\'rtasida ma\'lumot almashuvini ta\'minlovchi yuqori unumdorlikka ega modem tizimi.',
+            features: ['Uzoq masofaga signal uzatish', 'Shovqindan himoyalangan kanal', 'PLC bilan integratsiya'],
+            media: [
+                { type: 'image', src: 'assets/projects/modem/1.jpg' },
+                { type: 'image', src: 'assets/projects/modem/2.jpg' }
+            ]
         }
     };
 
